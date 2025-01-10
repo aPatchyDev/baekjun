@@ -9,3 +9,7 @@ def readInt():
 
 def readInts():
     return map(int, sys.stdin.readline().split())
+
+import math
+def round(n):
+    return math.floor(n + 0.5)
